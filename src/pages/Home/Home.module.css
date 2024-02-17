@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.groups {
+  width: 25%;
+}
+.groups1 {
+  width: 25%;
+}
+
+.banner {
+  width: 75%;
+}
+
+.banner1 {
+  width: 75%;
+}
+
+.width {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .groups {
+    width: 40%;
+  }
+  .groups1 {
+    width: 40%;
+  }
+
+  .banner {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .groups {
+    width: 100%;
+  }
+  .groups1 {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .banner {
+    display: none;
+  }
+  .banner1 {
+    display: block;
+    width: 100%;
+  }
+}

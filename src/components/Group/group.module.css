@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 1rem;
+}
+
+.container :hover {
+  cursor: pointer;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+}
+
+.grpName {
+  font-weight: 550;
+}
+
+.selected {
+  background-color: lightgrey;
+}

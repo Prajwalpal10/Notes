@@ -1,0 +1,48 @@
+.container {
+  height: 25%;
+  width: 75%;
+  background-color: #001f8b;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container textarea {
+  height: 80%;
+  width: 95%;
+  border: none;
+  overflow-y: auto;
+  resize: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: medium;
+  color: #9a9a9a;
+}
+
+.arrowImage {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+.disabled {
+  filter: grayscale(100%) brightness(600%);
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 20%;
+  }
+}

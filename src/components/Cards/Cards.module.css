@@ -1,0 +1,10 @@
+.container {
+  max-height: 65%;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-height: 70%;
+  }
+}

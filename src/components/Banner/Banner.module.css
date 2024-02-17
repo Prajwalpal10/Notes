@@ -1,0 +1,38 @@
+.container {
+  background-color: #dae5f5;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.inBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inBox img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inBox h2 {
+  margin: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+.footer img {
+  width: 6%;
+  margin-right: 5px;
+}

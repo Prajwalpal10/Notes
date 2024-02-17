@@ -1,0 +1,29 @@
+.container {
+  margin: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.content {
+  margin-bottom: 1rem;
+  font-size: 13px;
+  line-height: 1.2rem;
+}
+
+.time {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.circle {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 10px;
+}
